@@ -50,13 +50,13 @@ sudo apt install bind9 bind9utils bind9-dnsutils
 
 	````
 	logging {
-	channel blockedlog {
-	    file "/var/log/named/blocked-zone.log" versions unlimited size 100m;
-	    print-time yes;
-	    print-category yes;
-	    print-severity yes;
-	    severity info;
-	};
+	    channel blockedlog {
+	        file "/var/log/named/blocked-zone.log" versions unlimited size 100m;
+	        print-time yes;
+	        print-category yes;
+	        print-severity yes;
+	        severity info;
+	    };
 	    category rpz { blockedlog; };
 	};
 	````
