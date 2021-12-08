@@ -53,6 +53,7 @@ EOL
 while read line; do
 	dots=$(echo $line | grep -o "\." | wc -l)
 	if [[ $dots -eq 1 ]]; then
+		echo "$line	IN	A	0.0.0.0" >> $zone_file
 		echo "*.$line	IN	A	0.0.0.0" >> $zone_file
 	else
 		echo "$line	 IN	A	0.0.0.0" >> $zone_file
@@ -60,9 +61,9 @@ while read line; do
 done < $domains
 
 # Copy temp file to right directory
-# This is for Gentoo, might differ on other systems
-cp $zonefile /var/bind/pri/db.blocked.local
-chown named:named /var/bind/pri/db.blocked.local
+# This is for Ubuntu 20.04 LTS, might differ on other systems
+cp $zonefile /etc/bind/db.blocked.local
+chown bind:bind /etc/bind/db.blocked.local
 
 # Reload bind
 rndc reload

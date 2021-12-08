@@ -61,7 +61,7 @@ sudo apt install bind9 bind9utils bind9-dnsutils
 	};
 	````
 
-	If '/va/log/named/' directory doesn't exist, create it and make bind as the owner
+	If '/var/log/named/' directory doesn't exist, create it and make bind as the owner
 
 	```sh
 	sudo mkdir /var/log/named/
@@ -70,7 +70,7 @@ sudo apt install bind9 bind9utils bind9-dnsutils
 
 * Add blocked zone file with the blocked-zone.sh script.
 
-	- first, clone this repository
+	- first, clone this repository:
 
 	```sh
 	git clone https://github.com/mofm/blocked-zone.git
