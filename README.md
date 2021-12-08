@@ -39,7 +39,7 @@ sudo apt install bind9 bind9utils bind9-dnsutils
 
 	````
 	zone "blocked.local" {
-    	    type master;
+	    type master;
             file "/etc/bind/db.blocked.local";
             allow-query { localhost; };
             allow-transfer { localhost; };
@@ -51,7 +51,7 @@ sudo apt install bind9 bind9utils bind9-dnsutils
 	````
 	logging {
     	    channel blockedlog {
-  	        file "/var/log/named/blocked-zone.log" versions unlimited size 100m;
+		file "/var/log/named/blocked-zone.log" versions unlimited size 100m;
     	        print-time yes;
     	        print-category yes;
     	        print-severity yes;
