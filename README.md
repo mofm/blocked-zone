@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install bind9 bind9utils bind9-dnsutils
 ```
 
-* Configurations for recursive DNS resolver with RPZ(responsive policy zone)
+* Configurations for recursive DNS resolver with RPZ(response policy zone)
 
 	- To enable recursion service, edit '/etc/bind/named.conf.options':
 
