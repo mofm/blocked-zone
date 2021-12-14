@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.piesso.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures device to use Piesso Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Piesso DNS over HTTPS</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.7a99e31b-2e95-427b-8887-81c678b29868</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>8e9ecef3-921f-46dd-8368-77fc7a453c6d</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProhibitDisablement</key>
+			<false/>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Adds the Piesso DNS to Mojave and iOS 15 based systems</string>
+	<key>PayloadDisplayName</key>
+	<string>Piesso DNS over HTTPS</string>
+	<key>PayloadIdentifier</key>
+	<string>cf41b4fc-a5a2-4b60-a300-9f6537c84e98</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>3f387497-865c-4b67-ae74-32c7dfc62905</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
