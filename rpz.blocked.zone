@@ -1,0 +1,13 @@
+; ====================================
+; Unbound recursive DNS server
+; RPZ zone file
+; Additional personal blocked hosts
+; URL: https://raw.githubusercontent.com/mofm/blocked-zone/main/rpz.blocked.zone
+; ===================================
+
+adskeeper.com	CNAME	.
+*.adskeeper.com	CNAME	.
+trmobc.com	CNAME	.
+*.trmobc.com	CNAME	.
+torrindex.net	CNAME	.
+*.torrindex.net	CNAME	.

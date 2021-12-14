@@ -116,4 +116,6 @@ sudo systemctl enable bind9
 ## Optional
 - You can add cronjob for schedule update
 - You can change the URL to StevenBlack GitHub Hosts in 'blocked-zone.sh'
+- You can download and use auto-generated RPZ zone files from https://scripttiger.github.io/alts/
+- Also you can download and use abuse.ch RPZ zone file from https://urlhaus.abuse.ch/downloads/rpz/
 
