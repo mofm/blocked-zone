@@ -119,3 +119,20 @@ sudo systemctl enable bind9
 - You can download and use auto-generated RPZ zone files from https://scripttiger.github.io/alts/
 - Also you can download and use abuse.ch RPZ zone file from https://urlhaus.abuse.ch/downloads/rpz/
 
+## URLs of Blacklists
+
+| Name | URL  |
+| ---- | ---- |
+| Abuse.ch | https://threatfox.abuse.ch/ |
+| Adaway | https://adaway.org/ |
+| Adguard List | https://justdomains.github.io/blocklists/#the-lists |
+| Blocklist.site | https://github.com/blocklistproject/Lists |
+| EasyList | https://justdomains.github.io/blocklists/#the-lists |
+| Easyprivacy | https://justdomains.github.io/blocklists/#the-lists |
+| NoCoin List | https://justdomains.github.io/blocklists/#the-lists |
+| PornTop1M List | https://github.com/chadmayfield/my-pihole-blocklists |
+| Simple Ad List | https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt |
+| Simple Tracker List | https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt |
+| StevenBlack/hosts | https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts |
+| WindowsSpyBlocker | https://github.com/crazy-max/WindowsSpyBlocker |
+| YoYo List | https://pgl.yoyo.org/adservers/ |
