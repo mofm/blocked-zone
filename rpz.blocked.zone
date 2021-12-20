@@ -1,8 +1,8 @@
 ; ====================================
-; Unbound recursive DNS server
-; RPZ zone file
-; Additional personal blocked hosts
+; Response Policy Zones (RPZ) blocklist of URLs
 ; URL: https://raw.githubusercontent.com/mofm/blocked-zone/main/rpz.blocked.zone
+; Last updated: 2021-12-20T20:44:26 (UTC)
+; For questions please contact emre.eryilmaz [at] piesso.com
 ; ===================================
 
 adskeeper.com	CNAME	.
@@ -19,4 +19,6 @@ hpages.net	CNAME	.
 *.tcdn.fun	CNAME	.
 clickadilla.com	CNAME	.
 *.clickadilla.com	CNAME	.
+profitshare.bg	CNAME	.
+*.profitshare.bg	CNAME	.
 
