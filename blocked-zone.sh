@@ -62,7 +62,7 @@ done < $domains
 
 # Copy temp file to right directory
 # This is for Ubuntu 20.04 LTS, might differ on other systems
-cp $zonefile /etc/bind/db.blocked.local
+cp $zone_file /etc/bind/db.blocked.local
 chown bind:bind /etc/bind/db.blocked.local
 
 # Reload bind
