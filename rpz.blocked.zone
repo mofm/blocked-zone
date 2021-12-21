@@ -1,11 +1,11 @@
 ; ====================================
 ; Response Policy Zones (RPZ) blocklist of URLs
 ; URL: https://raw.githubusercontent.com/mofm/blocked-zone/main/rpz.blocked.zone
-; Last updated: 2021-12-21T16:25:51 (UTC)
+; Last updated: 2021-12-21T17:42:46 (UTC)
 ; For questions please contact emre.eryilmaz [at] piesso.com
 ; ===================================
 $TTL 2h
-@ IN SOA localhost. root.localhost. ( 2 6h 1h 1w 2h)
+@ IN SOA localhost. root.localhost. ( 4 6h 1h 1w 2h)
 @	IN	NS	localhost.
 ;
 ;
@@ -21,8 +21,8 @@ promo.worldofwarships.eu	CNAME	.
 hpages.net	CNAME	.
 *.hpages.net	CNAME	.
 *.tcdn.fun	CNAME	.
-;clickadilla.com	CNAME	.
-;*.clickadilla.com	CNAME	.
-;profitshare.bg	CNAME	.
-;*.profitshare.bg	CNAME	.
+clickadilla.com	CNAME	.
+*.clickadilla.com	CNAME	.
+profitshare.bg	CNAME	.
+*.profitshare.bg	CNAME	.
 

@@ -53,10 +53,10 @@ EOL
 while read line; do
 	dots=$(echo $line | grep -o "\." | wc -l)
 	if [[ $dots -eq 1 ]]; then
-		echo "$line	IN	A	0.0.0.0" >> $zone_file
-		echo "*.$line	IN	A	0.0.0.0" >> $zone_file
+		echo "$line	CNAME	." >> $zone_file
+		echo "*.$line	CNAME	." >> $zone_file
 	else
-		echo "$line	 IN	A	0.0.0.0" >> $zone_file
+		echo "$line	CNAME	." >> $zone_file
 	fi
 done < $domains
 
@@ -66,6 +66,7 @@ cp $zone_file /etc/bind/db.blocked.local
 chown bind:bind /etc/bind/db.blocked.local
 
 # Reload bind
+# or you can reload only this zone: "rndc reload domain-name-of-zone"
 rndc reload
 
 # Finish
