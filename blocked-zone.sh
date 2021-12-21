@@ -7,7 +7,7 @@ set -e
 date
 
 # Serial yyyymmddnn
-SERIAL=$(date +"%Y%m%d")01
+SERIAL=$(date +"%Y%m%d%H")
 
 # Set tempfiles
 domains=$(mktemp)
