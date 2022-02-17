@@ -1,11 +1,11 @@
 ; ====================================
 ; Response Policy Zones (RPZ) blocklist of URLs
 ; URL: https://raw.githubusercontent.com/mofm/blocked-zone/main/rpz.blocked.zone
-; Last updated: 2022-02-11T00:27:49 (UTC)
+; Last updated: 2022-02-17T21:55:42 (UTC)
 ; For questions please contact emre.eryilmaz [at] piesso.com
 ; ===================================
 $TTL 2h
-@ IN SOA localhost. root.localhost. ( 6 6h 1h 1w 2h)
+@ IN SOA localhost. root.localhost. ( 7 6h 1h 1w 2h)
 @	IN	NS	localhost.
 ;
 ;
@@ -28,3 +28,5 @@ profitshare.bg	CNAME	.
 advertere.zamunda.net	CNAME	.
 ddomainregister.com	CNAME	.
 *.ddomainregister.com	CNAME	.
+update48451.xyz		CNAME	.
+*.update48451.xyz	CNAME	.
