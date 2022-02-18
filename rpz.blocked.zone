@@ -1,11 +1,11 @@
 ; ====================================
 ; Response Policy Zones (RPZ) blocklist of URLs
 ; URL: https://raw.githubusercontent.com/mofm/blocked-zone/main/rpz.blocked.zone
-; Last updated: 2022-02-17T21:55:42 (UTC)
+; Last updated: 2022-02-18T03:22:05 (UTC)
 ; For questions please contact emre.eryilmaz [at] piesso.com
 ; ===================================
 $TTL 2h
-@ IN SOA localhost. root.localhost. ( 7 6h 1h 1w 2h)
+@ IN SOA localhost. root.localhost. ( 8 6h 1h 1w 2h)
 @	IN	NS	localhost.
 ;
 ;
@@ -30,3 +30,7 @@ ddomainregister.com	CNAME	.
 *.ddomainregister.com	CNAME	.
 update48451.xyz		CNAME	.
 *.update48451.xyz	CNAME	.
+justservingfiles.net	CNAME	.
+*.justservingfiles.net	CNAME	.
+ackcdn.net		CNAME	.
+*.ackcdn.net		CNAME	.
